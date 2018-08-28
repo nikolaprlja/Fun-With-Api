@@ -1,0 +1,230 @@
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    background-color: rgba(45,45,48,0.6);
+    font-size: 14px !important;
+    letter-spacing: 4px;
+}
+.navbar li a, .navbar .navbar-brand { 
+    color: #d5d5d5 !important;
+}
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.wrapper {
+    margin-top: 100px;
+}
+
+.card {
+    background-color: rgba(51,51,51,0.5) !important;
+    color: #fff !important;
+    padding-bottom: 15px;
+}
+
+.card img {
+    margin-top: 15px;
+}
+
+.card h5 {
+    font-family: 'Merriweather', serif;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.card ul li {
+    font-family: 'Merriweather', serif;
+    background-color: rgba(51,51,51,0.5);
+    color: #fff;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.content ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+.content h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;    
+}
+.content h2 a {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;    
+}
+
+.content a {
+    color: #d2d1d1;
+    text-decoration: none;    
+}
+.content a:hover, .content a:focus {
+    text-decoration: none;
+    color: white;    
+}
+.content .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+.content .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+.content .social-networks a:hover {
+    text-decoration: none;
+}
+.content .facebook:hover {
+    color: #0077e2;
+}
+.content .google:hover {
+    color: #ef1a1a;
+}
+.content .twitter:hover {
+    color: #00aced;
+}
+.content .btn {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+.content .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+* { box-sizing: border-box; }
+.video-background {
+    background: #000;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -99;
+}
+.video-foreground,
+.video-background #videoPlayer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+#vidtop-content {
+    top: 0;
+    color: #fff;
+}
+.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
+.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
+.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
+@media (min-aspect-ratio: 16/9) {
+    .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+    .video-foreground { width: 300%; left: -100%; }
+}
+@media all and (max-width: 600px) {
+    .vid-info { width: 50%; padding: .5rem; }
+    .vid-info h1 { margin-bottom: .2rem; }
+}
+@media all and (max-width: 500px) {
+    .vid-info .acronym { display: none; }
+}
+
+/*-----------------currency-exchange--------------------*/
+
+.currency-exchange-form {
+    padding-top: 100px;
+}
+
+.exchange-btn {
+    margin-top: 30px;
+}
+
+.rotate-btn {
+    margin-left: 20px;
+}
+
+/*-----------------countries--------------------*/
+
+.scrollable-section {
+    height: 500px;
+    box-shadow: rgba(45,45,45,0.5) 1px 1px 10px 1px;
+    overflow-y: scroll;
+}
+
+.country-form {
+    margin: 40px 0;
+}
+
+.country-name {
+    cursor: pointer;
+}
+
+table tr td img {
+    width: 40px;
+}
+
+/*-------------map-------------*/
+
+.mdl {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.mdl-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+
+
+
